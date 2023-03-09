@@ -5,6 +5,8 @@ const {shuffleArray} = require('./utils')
 
 app.use(express.json())
 
+app.use(express.static(`${__dirname}/public`))
+
 app.get('/api/robots', (req, res) => {
     try {
         res.status(200).send(botsArr)
