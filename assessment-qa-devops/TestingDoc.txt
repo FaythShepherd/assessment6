@@ -1,0 +1,60 @@
+TESTING DOCUMENTATION
+
+---MY PLAN---
+-verify bots exist
+-verify bots can select
+-verify bots can fight
+
+Entry Criteria
+- All on the Duel page
+
+Exit Criteria
+-Every test has passed or bug reports are written
+
+Completion
+-fully functional game
+
+---DUO BUGS REPORT---
+-BUG Scores are all added to the score of lossing team even though the winning team
+earned the points.
+
+Steps to reproduce the bug appove- 
+1.Turn on your computer
+2.Log into computer
+3.Go to the Assessment Project
+4.Open in VS Code
+5.Open Terminal
+6.Run Nodemon server.js in terminal
+7.In a browswer of your choice, navigate to the correct port
+8.Go to the Duel Page
+9.Click on the button labeled Draw
+10.Click on two robots and then click the Add button for both robots
+11.Click Duel
+12.Check the results
+13.Keep going until the match ends
+14.View lossers and winners score
+
+What we want
+-Winners of the match will have their score up by one
+-Lossers will have their loss score up by one
+
+What is actually happening
+-Any game increases the loss score
+
+Environment that I used
+
+Google Chrome
+
+---TEST CASE---
+
+The plan is to verify scoreboard is correct
+
+Test Criteria
+be on the duel page, have the scoreboard at 0 for both sides
+
+Steps
+-Click on Draw
+-Click on two robots
+-Click on Add to Duel
+-Click on Duel
+-Check the results after Duel on scoreboard
